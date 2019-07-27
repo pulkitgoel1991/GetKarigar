@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abeezee</item>
+        <item>@font/anonymous_pro_bold</item>
+        <item>@font/archivo_black</item>
+        <item>@font/farsan</item>
+        <item>@font/imprima</item>
+        <item>@font/playfair_display_sc</item>
+    </array>
+</resources>

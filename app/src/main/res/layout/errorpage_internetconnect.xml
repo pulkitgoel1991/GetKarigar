@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:text="Oops!"
+        android:textSize="60sp"
+        app:fontFamily="@font/abeezee"
+        android:textColor="#000"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/errorimg"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/lightgray"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Cannot Connect to a Network
+                       Connect to a wifi or hotspot or
+                       turn On the data of your mobile"
+        android:textColor="@color/darkblue"
+        android:textSize="16sp"
+        app:fontFamily="@font/playfair_display_sc" />
+
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Try Again"
+        android:background="#ff0000"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        app:fontFamily="@font/abeezee"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/dashboard"
+            android:title="Dashboard" />
+    </group>
+
+
+    <item android:title="Profile"
+        android:iconTintMode="add">
+        <menu>
+            <item
+                android:id="@+id/nav_business_details"
+                android:title="Business Details"
+                android:visible="true"
+                android:icon="@drawable/business_details"
+                />
+            <item
+                android:id="@+id/nav_additional_details"
+                android:title="Additional Details"
+                android:icon="@drawable/additional_details"
+                android:iconTint="@color/design_default_color_primary"/>
+
+            <item
+                android:id="@+id/nav_personal_profile"
+                android:title="Personal Profile"
+                android:icon="@drawable/personal_profile"
+                android:iconTint="@color/cardview_dark_background"/>
+
+            <item
+                android:id="@+id/nav_gstin_details"
+                android:title="GSTIN Details"
+                android:icon="@drawable/gstin_details"/>
+
+            <item
+                android:id="@+id/nav_company_images"
+                android:title="Company Images"
+                android:icon="@drawable/company_images"/>
+
+            <item
+                android:id="@+id/changepassword"
+                android:title="Change Password"
+                android:icon="@drawable/change_password"/>
+        </menu>
+    </item>
+
+
+    <item android:title="Inquiries">
+        <menu>
+
+
+            <item
+                android:id="@+id/bycontacts"
+                android:title="By Contacts"
+                android:icon="@drawable/by_phone"/>
+
+            <item
+                android:id="@+id/byemails"
+                android:title="By Emails"
+                android:icon="@drawable/by_email"/>
+        </menu>
+    </item>
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_service"
+            android:icon="@drawable/service"
+            android:title="Service" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/feedback"
+            android:title="Feedback" />
+    </group>
+
+</menu>
